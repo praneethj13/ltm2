@@ -21,11 +21,10 @@ library(ltm)
 # require some time to execute depending on your machine
 
 
-
 #####################
 # Abortion data-set #
 #####################
-
+Abortion
 out1 <- unidimTest(ltm(Abortion ~ z1), B = 200)
 out1
 par(mfrow = c(2, 2)) # if you wish to create a single plot for the three data-sets
